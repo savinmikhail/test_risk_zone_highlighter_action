@@ -9,8 +9,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
 
     - name: Run Risk Analysis
       uses: savinmikhail/pr_risky_zones_highlighter@0.1.x
