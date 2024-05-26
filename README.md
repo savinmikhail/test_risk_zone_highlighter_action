@@ -1,0 +1,1 @@
+this repo exists only for testing purposes of my own github action savinmikhail/pr_risky_zones_highlighter
