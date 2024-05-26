@@ -14,6 +14,7 @@ jobs:
       uses: savinmikhail/pr_risky_zones_highlighter@0.1.x
       with:
         gpt_api_key: ${{ secrets.GPT_API_KEY }}
+        gpt_url: 'https://api.proxyapi.ru/openai'
         github_token: ${{ secrets.GITHUB_TOKEN }}
         repo_full_name: ${{ github.repository }}
         pull_number: ${{ github.event.pull_request.number }}
