@@ -13,6 +13,6 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Run custom action
-      uses: savinmikhail/pr_risky_zones_highlighter@v0
+      uses: savinmikhail/pr_risky_zones_highlighter
       with:
         gpt_api_key: ${{ secrets.GPT_API_KEY }}
