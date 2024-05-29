@@ -11,7 +11,7 @@ jobs:
     steps:
 
     - name: Run Risk Analysis
-      uses: savinmikhail/pr_risky_zones_highlighter@0.1.x
+      uses: savinmikhail/pr_risky_zones_highlighter@1.1.0
       with:
         gpt_api_key: ${{ secrets.GPT_API_KEY }}
         gpt_url: 'https://api.proxyapi.ru/openai'
